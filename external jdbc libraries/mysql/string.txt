@@ -1,0 +1,5 @@
+Class.forName("com.mysql.cj.jdbc.Driver");
+
+the url :
+
+jdbc:mysql://localhost:3306/class","root",""

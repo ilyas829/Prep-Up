@@ -1,0 +1,29 @@
+Class.forName("oracle.jdbc.driver.OracleDriver");
+
+url: "jadbc:oracle:thin:@localhost:1521:XE"
+
+
+
+**********url is used to represent unique database for your connectivity**********
+
+oracle drivers are categorised in two categiries;
+this driver and 
+oci driver 
+ 
+we can use the oci (oracle client interface)
+
+thin driver is coded completely in java so we are using this driver here
+
+**********
+
+localhost is representing that oracle is installed into your computer 
+in case you have done the networking then you can use the ip address of that computer which is configures with the oracle
+so you have to give the ip address of that machiene.
+
+
+*********************
+
+next you have to give the port number, the port number of oracle is 1521.
+***********88
+ then specify the edition of the oeacle software
+which is XE in this case

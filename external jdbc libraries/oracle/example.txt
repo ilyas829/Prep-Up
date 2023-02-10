@@ -1,0 +1,26 @@
+
+package testconnection;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.sql.*;
+public class TestConnection {
+
+  
+    public static void main(String[] args)
+    {
+        String url="jdbc:oracle:thin:@localhost:1521:XE";
+        
+        try {
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            System.out.println("drivers are loaded");
+            Connection con = DriverManager.getConnection(url,"system","system");
+            System.out.println("connection established");
+            //TODO work to be done after establishing the connection
+            
+        } catch (ClassNotFoundException ex) {
+           System.out.println("drivers are not loaded");
+        }catch(SQLException e){System.out.println("conncetion failed");}
+    }
+    
+}

@@ -1,0 +1,12 @@
+.footer_table{
+
+color:white;text-align:center;
+}
+.footer_table tr td
+{font-weight:bold;padding:2px;}
+#footer_icon
+	{padding:2px;text-align:right;font-size:1.5em}
+	
+	.footer_text
+	{text-align:left;
+	}
